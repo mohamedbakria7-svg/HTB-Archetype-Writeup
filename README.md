@@ -1,73 +1,106 @@
-# Hack The Box — Penetration Testing Writeups
+# Hack The Box | Cybersecurity Portfolio
 
-A professional cybersecurity portfolio documenting my journey in offensive security through Hack The Box machines and challenges.
+A structured collection of my **Hack The Box (HTB)** machine walkthroughs, security research, practical notes, and technical learning documentation.
+
+The purpose of this repository is to document my hands-on cybersecurity journey, improve my penetration testing methodology, and build practical experience in offensive security.
+
+---
 
 ## About This Repository
 
-This repository contains practical penetration testing writeups, technical notes, screenshots, tools, and methodologies used during authorized Hack The Box labs.
+This repository contains technical writeups organized by machine and challenge.
 
-Each writeup includes:
+Each machine walkthrough follows a structured penetration testing methodology, documenting the discovery process, attack surface, vulnerabilities, exploitation path, and privilege escalation.
 
-- Reconnaissance and Enumeration
-- Vulnerability Analysis
-- Initial Access
-- Privilege Escalation
-- User and Root/System Flags
-- Tools and Techniques
-- Evidence and Screenshots
-- Lessons Learned
+### Documentation Languages
+
+- **English:** Technical writeups and methodology.
+- **Arabic:** Learning notes and explanations.
+
+---
+
+## Penetration Testing Methodology
+
+Each machine is documented using the following phases:
+
+| Phase | Description |
+|---|---|
+| 01. Reconnaissance | Target discovery and information gathering |
+| 02. Enumeration | Service and application enumeration |
+| 03. Vulnerability Analysis | Identification and analysis of weaknesses |
+| 04. Initial Access | Obtaining the first foothold |
+| 05. Privilege Escalation | Escalating system privileges |
+| 06. Flags | Documenting user and root flag completion |
+
+---
+
+## Hack The Box Machines
+
+### Completed Writeups
+
+| Machine | Status | Documentation |
+|---|---|---|
+| DevHub | Completed | [View Writeup](Machines/DevHub/README.md) |
+
+---
 
 ## Repository Structure
 
 ```text
-HackTheBox-Writeups/
+HTB-Archetype-Writeup/
 │
 ├── Machines/
-│   ├── DutyBound/
-│   ├── Nimbus/
-│   ├── Snapped/
-│   ├── Abducted/
 │   └── DevHub/
+│       ├── README.md
+│       ├── Checklist.md
+│       ├── Notes/
+│       │   └── Arabic-Notes.md
+│       └── Screenshots/
+│           ├── 01-Reconnaissance/
+│           ├── 02-Enumeration/
+│           ├── 03-Vulnerability-Analysis/
+│           ├── 04-Initial-Access/
+│           ├── 05-Privilege-Escalation/
+│           └── 06-Flags/
 │
 ├── Challenges/
-│   ├── SpookyPass/
-│   ├── Ether-Tag/
-│   ├── The-Puppet-Master/
-│   ├── Global-Hyperlink-Zone/
-│   ├── Scalped-Platform/
-│   └── First-Contact/
 │
 └── Resources/
-    ├── Tools/
-    ├── Methodologies/
-    └── Notes/
 ```
-
-## Methodology
-
-Each machine follows a structured penetration testing methodology:
-
-1. Information Gathering
-2. Network Scanning
-3. Service Enumeration
-4. Vulnerability Identification
-5. Initial Foothold
-6. Privilege Escalation
-7. Proof Collection
-8. Documentation
-
-## Documentation Language
-
-- English: Technical writeups and professional documentation.
-- Arabic: Additional explanations and learning notes.
-
-## Disclaimer
-
-All activities documented here were performed in authorized educational environments, primarily Hack The Box.
-
-This repository is intended for educational purposes only.
 
 ---
 
-**Author:** Cybersecurity Student  
-**Focus:** Penetration Testing | Red Team | Active Directory | Web Security
+## Skills & Technical Areas
+
+- Network Reconnaissance
+- Service Enumeration
+- Web Application Security
+- Vulnerability Analysis
+- Remote Code Execution (RCE)
+- Linux Privilege Escalation
+- Active Directory Security
+- API Security
+- Model Context Protocol (MCP) Security
+
+---
+
+## Learning Objectives
+
+- Develop structured penetration testing skills.
+- Understand real-world attack techniques.
+- Improve Linux and Windows security knowledge.
+- Practice vulnerability discovery and exploitation.
+- Document findings professionally.
+- Build a technical cybersecurity portfolio.
+
+---
+
+## Disclaimer
+
+All activities documented in this repository are performed in authorized educational environments, including Hack The Box.
+
+This repository is intended for educational and research purposes only. Do not use these techniques against systems without explicit authorization.
+
+---
+
+**Continuous Learning | Offensive Security | Hack The Box**
