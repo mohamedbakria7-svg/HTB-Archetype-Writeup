@@ -1,47 +1,42 @@
-# DevHub — Progress Checklist
+# DevHub - Completion Checklist
 
-## 1. Reconnaissance
-- [ ] Identify target IP
-- [ ] Run Nmap scan
-- [ ] Identify open ports
-- [ ] Identify running services
-- [ ] Save Nmap screenshots
+## 01 - Reconnaissance
+- [x] Identify the target machine.
+- [x] Scan open ports.
+- [x] Identify running services.
+- [x] Document reconnaissance findings.
 
-## 2. Enumeration
-- [ ] Enumerate discovered services
-- [ ] Identify interesting directories and files
-- [ ] Identify users and potential credentials
-- [ ] Document findings
-- [ ] Save screenshots
+## 02 - Enumeration
+- [x] Enumerate exposed services.
+- [x] Investigate MCPJam Inspector.
+- [x] Investigate JupyterLab.
+- [x] Document enumeration findings.
 
-## 3. Vulnerability Analysis
-- [ ] Identify potential vulnerabilities
-- [ ] Verify attack vectors
-- [ ] Document findings
+## 03 - Vulnerability Analysis
+- [x] Identify the MCPJam Inspector vulnerability.
+- [x] Analyze the RCE attack surface.
+- [x] Document the security impact.
 
-## 4. Initial Access
-- [ ] Identify initial access vector
-- [ ] Obtain initial foothold
-- [ ] Capture User Flag
-- [ ] Save evidence
+## 04 - Initial Access
+- [x] Obtain initial access as `mcp-dev`.
+- [x] Discover the JupyterLab token.
+- [x] Access JupyterLab as `analyst`.
 
-## 5. Privilege Escalation
-- [ ] Enumerate local privileges
-- [ ] Identify privilege escalation vector
-- [ ] Obtain elevated privileges
-- [ ] Capture Root/System Flag
-- [ ] Save evidence
+## 05 - Privilege Escalation
+- [x] Discover the OPSMCP API key.
+- [x] Investigate `ops._admin_dump`.
+- [x] Recover the root SSH private key.
+- [x] Obtain root access.
 
-## 6. Documentation
-- [ ] Complete technical writeup
-- [ ] Add screenshots
-- [ ] Explain commands
-- [ ] Explain techniques
-- [ ] Add Arabic notes
-- [ ] Review final documentation
+## 06 - Flags
+- [x] Obtain User Flag.
+- [x] Obtain Root Flag.
+- [x] Document completion.
 
-## 7. Final Review
-- [ ] Verify all information
-- [ ] Remove sensitive personal information
-- [ ] Check Markdown formatting
-- [ ] Publish completed writeup
+## Documentation
+- [x] Create phase directories.
+- [x] Create phase README files.
+- [x] Create the main DevHub README.
+- [x] Create Arabic notes.
+- [ ] Add verified screenshots.
+- [ ] Review all documentation and links.
