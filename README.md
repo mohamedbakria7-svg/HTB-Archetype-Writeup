@@ -4,147 +4,114 @@ A personal cybersecurity portfolio documenting my practical penetration testing 
 
 This repository contains technical writeups, methodologies, security research, and learning notes based on hands-on lab experience.
 
----
-
-## About Me
+## About
 
 I am developing my skills in cybersecurity, penetration testing, and offensive security through practical labs and continuous learning.
 
-**Documentation:**
-- English: Technical writeups and methodologies.
-- Arabic: Explanations, notes, and learning documentation.
-
----
+- Technical documentation: English
+- Learning notes: Arabic
+- Platform: Hack The Box
 
 ## Penetration Testing Methodology
 
-My machine writeups follow these phases:
-
 | Phase | Description |
 |---|---|
-| 01. Reconnaissance | Information gathering and port scanning |
-| 02. Enumeration | Service and application investigation |
-| 03. Vulnerability Analysis | Identifying and analyzing weaknesses |
-| 04. Initial Access | Obtaining initial system access |
-| 05. Privilege Escalation | Escalating privileges |
-| 06. Flags | Documenting obtained flags |
+| 01 - Reconnaissance | Discover targets and exposed services |
+| 02 - Enumeration | Identify services, users, and application details |
+| 03 - Vulnerability Analysis | Analyze potential weaknesses |
+| 04 - Initial Access | Obtain the first foothold |
+| 05 - Privilege Escalation | Investigate paths to higher privileges |
+| 06 - Flags | Record verified flag completion |
 
 ---
-
-# Hack The Box Machines
 
 ## Completed Machines
 
-The following table represents my completed machine progress.
-
-| Machine | Completion | Date |
-|---|---|---|
-| Archetype | User + Administrator | Sep 2026 |
-| Cap | User + System | 2025-12-07 |
-| Management | User + System | 2026-10-03 |
-| Fireflow | User + System | 2026-10-06 |
-| Touch | User Flag | 2026-10-10 |
-| Orion | User + System | 2026-10-11 |
-| Paperwork | User + System | 2026-10-14 |
-| Cohort | User + System | 2026-10-15 |
-| Checkpoint | User Flag | 2026-10-17 |
-| Support | User + System | 2026-10-18 |
-| TwoMillion | User + System | 2026-10-19 |
-| Connected | User Flag | 2026-10-19 |
-| Stream | User Flag | 2026-10-20 |
-| DevHub | User + System | 2026-10-21 |
-| Abducted | User + System | 2026-10-22 |
-| Snapped | User Flag | 2026-10-25 |
-| Nimbus | User Flag | 2026-10-31 |
-| DutyBound | User Flag | 2026-11-01 |
-
-## Machine Writeups
-
-| Machine | Documentation |
-|---|---|
-| DevHub | [View Writeup](Machines/DevHub/README.md) |
-| Nimbus | [View Writeup](Machines/Nimbus/README.md) |
-| Other completed machines | Documentation in progress |
-
----
-
-# Hack The Box Challenges
+| Machine | Completion | Date | Documentation |
+|---|---|---|---|
+| Archetype | User + Administrator | Sep 2026 | [Writeup](Machines/Archetype/README.md) |
+| Cap | User + System | 2025-12-07 | [Writeup](Machines/Cap/README.md) |
+| Management | User + System | 2026-10-03 | [Writeup](Machines/Management/README.md) |
+| Fireflow | User + System | 2026-10-06 | [Writeup](Machines/Fireflow/README.md) |
+| Touch | User Flag | 2026-10-10 | [Writeup](Machines/Touch/README.md) |
+| Orion | User + System | 2026-10-11 | [Writeup](Machines/Orion/README.md) |
+| Paperwork | User + System | 2026-10-14 | [Writeup](Machines/Paperwork/README.md) |
+| Cohort | User + System | 2026-10-15 | [Writeup](Machines/Cohort/README.md) |
+| Checkpoint | User Flag | 2026-10-17 | [Writeup](Machines/Checkpoint/README.md) |
+| Support | User + System | 2026-10-18 | [Writeup](Machines/Support/README.md) |
+| TwoMillion | User + System | 2026-10-19 | [Writeup](Machines/TwoMillion/README.md) |
+| Connected | User Flag | 2026-10-19 | [Writeup](Machines/Connected/README.md) |
+| Stream | User Flag | 2026-10-20 | [Writeup](Machines/Stream/README.md) |
+| DevHub | User + System | 2026-10-21 | [Writeup](Machines/DevHub/README.md) |
+| Abducted | User + System | 2026-10-22 | [Writeup](Machines/Abducted/README.md) |
+| Snapped | User Flag | 2026-10-25 | [Writeup](Machines/Snapped/README.md) |
+| Nimbus | User Flag | 2026-10-31 | [Writeup](Machines/Nimbus/README.md) |
+| DutyBound | User Flag | 2026-11-01 | [Writeup](Machines/DutyBound/README.md) |
 
 ## Completed Challenges
 
-| Challenge | Completion Date |
-|---|---|
-| First Contact | 2026-10-25 |
-| SpookyPass | 2026-10-28 |
-| Ether Tag | 2026-10-28 |
-| The Puppet Master | 2026-10-28 |
-| Global Hyperlink Zone | 2026-10-28 |
-| Scalped Platform | 2026-10-28 |
+| Challenge | Status | Date | Documentation |
+|---|---|---|---|
+| First Contact | Completed | 2026-10-25 | [Writeup](Challenges/First-Contact/README.md) |
+| SpookyPass | Completed | 2026-10-28 | [Writeup](Challenges/SpookyPass/README.md) |
+| Ether Tag | Completed | 2026-10-28 | [Writeup](Challenges/Ether-Tag/README.md) |
+| The Puppet Master | Completed | 2026-10-28 | [Writeup](Challenges/The-Puppet-Master/README.md) |
+| Global Hyperlink Zone | Completed | 2026-10-28 | [Writeup](Challenges/Global-Hyperlink-Zone/README.md) |
+| Scalped Platform | Completed | 2026-10-28 | [Writeup](Challenges/Scalped-Platform/README.md) |
 
 ---
 
-## Technical Skills & Areas
+## Skills & Technical Areas
 
 - Network Reconnaissance
-- Nmap Scanning
 - Service Enumeration
 - Web Application Security
-- Vulnerability Analysis
-- Remote Code Execution (RCE)
 - Linux Privilege Escalation
 - Windows Security
 - Active Directory
-- SMB Enumeration
-- API Security
-- Cloud Security
-- AWS Security
-- Model Context Protocol (MCP) Security
-
----
+- Penetration Testing Methodology
+- Vulnerability Analysis
 
 ## Repository Structure
 
 ```text
 HTB-Archetype-Writeup/
-│
-├── Machines/
-│   ├── DevHub/
-│   │   ├── README.md
-│   │   ├── Checklist.md
-│   │   ├── Notes/
-│   │   └── Screenshots/
-│   │
-│   └── Nimbus/
-│       ├── README.md
-│       ├── Checklist.md
-│       ├── Notes/
-│       └── Screenshots/
-│
 ├── Challenges/
-│
+│   ├── First-Contact/
+│   ├── SpookyPass/
+│   ├── Ether-Tag/
+│   ├── The-Puppet-Master/
+│   ├── Global-Hyperlink-Zone/
+│   └── Scalped-Platform/
+├── Machines/
+│   ├── Archetype/
+│   ├── Cap/
+│   ├── Management/
+│   ├── Fireflow/
+│   ├── Touch/
+│   ├── Orion/
+│   ├── Paperwork/
+│   ├── Cohort/
+│   ├── Checkpoint/
+│   ├── Support/
+│   ├── TwoMillion/
+│   ├── Connected/
+│   ├── Stream/
+│   ├── DevHub/
+│   ├── Abducted/
+│   ├── Snapped/
+│   ├── Nimbus/
+│   └── DutyBound/
 └── Resources/
 ```
 
----
+## Documentation Policy
 
-## Learning Objectives
-
-- Improve practical penetration testing skills.
-- Develop structured reconnaissance and enumeration methodology.
-- Understand exploitation techniques.
-- Improve Linux and Windows security knowledge.
-- Practice Active Directory security assessments.
-- Explore cloud and API security.
-- Build professional technical documentation.
-
----
+- Commands and results must be based on actual lab work.
+- Screenshots should represent the corresponding practical steps.
+- Unverified technical details are not presented as confirmed findings.
+- User and System/Root completion statuses are recorded separately.
 
 ## Disclaimer
 
-All activities documented in this repository are performed in authorized educational environments, including Hack The Box.
-
-This repository is intended for educational and research purposes only. Never use these techniques against systems without explicit authorization.
-
----
-
-**Continuous Learning | Offensive Security | Hack The Box**
+All material in this repository is intended for educational purposes and authorized security testing only.
