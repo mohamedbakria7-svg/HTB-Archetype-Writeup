@@ -1,32 +1,73 @@
-# HTB - Archetype
+# Hack The Box — Penetration Testing Writeups
 
-## Overview
-Brief description of the machine and the main attack path.
+A professional cybersecurity portfolio documenting my journey in offensive security through Hack The Box machines and challenges.
 
-## Enumeration
-Commands used and important findings.
+## About This Repository
 
-## Initial Access
-How the initial access was obtained.
+This repository contains practical penetration testing writeups, technical notes, screenshots, tools, and methodologies used during authorized Hack The Box labs.
 
-## Privilege Escalation
-How the privilege-escalation path was identified and exploited.
+Each writeup includes:
 
-## Tools Used
-- Nmap
-- SMBClient
-- Impacket
-- WinPEAS
-- Socat
+- Reconnaissance and Enumeration
+- Vulnerability Analysis
+- Initial Access
+- Privilege Escalation
+- User and Root/System Flags
+- Tools and Techniques
+- Evidence and Screenshots
+- Lessons Learned
 
-## Attack Chain
-Short diagram of the complete attack path.
+## Repository Structure
 
-## Security Findings
-List of vulnerabilities/misconfigurations.
+```text
+HackTheBox-Writeups/
+│
+├── Machines/
+│   ├── DutyBound/
+│   ├── Nimbus/
+│   ├── Snapped/
+│   ├── Abducted/
+│   └── DevHub/
+│
+├── Challenges/
+│   ├── SpookyPass/
+│   ├── Ether-Tag/
+│   ├── The-Puppet-Master/
+│   ├── Global-Hyperlink-Zone/
+│   ├── Scalped-Platform/
+│   └── First-Contact/
+│
+└── Resources/
+    ├── Tools/
+    ├── Methodologies/
+    └── Notes/
+```
 
-## Remediation
-How each issue could be fixed.
+## Methodology
 
-## Conclusion
-Short professional summary.
+Each machine follows a structured penetration testing methodology:
+
+1. Information Gathering
+2. Network Scanning
+3. Service Enumeration
+4. Vulnerability Identification
+5. Initial Foothold
+6. Privilege Escalation
+7. Proof Collection
+8. Documentation
+
+## Documentation Language
+
+- English: Technical writeups and professional documentation.
+- Arabic: Additional explanations and learning notes.
+
+## Disclaimer
+
+All activities documented here were performed in authorized educational environments, primarily Hack The Box.
+
+This repository is intended for educational purposes only.
+
+---
+
+**Author:** Cybersecurity Student  
+**Focus:** Penetration Testing | Red Team | Active Directory | Web Security
