@@ -1,56 +1,50 @@
-# DevHub — Hack The Box Writeup
+# Hack The Box - DevHub
 
-## 1. Machine Information
+## Machine Overview
 
-| Property | Details |
+| Field | Details |
 |---|---|
 | Platform | Hack The Box |
 | Machine | DevHub |
-| Difficulty | To be documented |
-| Operating System | To be documented |
 | Status | Completed |
+| Writeup Language | English |
+| Supporting Notes | Arabic |
 
-## 2. Overview
+## Introduction
 
-This writeup documents the methodology, enumeration process, vulnerabilities, and exploitation techniques used to compromise the DevHub machine.
+This repository documents the methodology and learning process used to complete the DevHub machine.
 
-## 3. Reconnaissance
+The writeup is organized into six phases, from initial reconnaissance to privilege escalation and flag collection.
 
-### Nmap Scanning
+## Methodology
 
-*Screenshots and scan results will be added here.*
+1. Reconnaissance
+2. Enumeration
+3. Vulnerability Analysis
+4. Initial Access
+5. Privilege Escalation
+6. Flags
 
-### Service Enumeration
+## Walkthrough
 
-*Document discovered services and interesting findings.*
+| Phase | Documentation |
+|---|---|
+| 01 - Reconnaissance | [View](Screenshots/01-Reconnaissance/README.md) |
+| 02 - Enumeration | [View](Screenshots/02-Enumeration/README.md) |
+| 03 - Vulnerability Analysis | [View](Screenshots/03-Vulnerability-Analysis/README.md) |
+| 04 - Initial Access | [View](Screenshots/04-Initial-Access/README.md) |
+| 05 - Privilege Escalation | [View](Screenshots/05-Privilege-Escalation/README.md) |
+| 06 - Flags | [View](Screenshots/06-Flags/README.md) |
 
-## 4. Initial Access
+## Additional Documentation
 
-*Document the vulnerability and exploitation process.*
+- [Checklist](Checklist.md)
+- [Arabic Notes](Notes/Arabic-Notes.md)
 
-## 5. Privilege Escalation
+## Evidence
 
-*Document the privilege escalation methodology.*
+Screenshots and supporting evidence are organized by phase in the `Screenshots` directory.
 
-## 6. Flags
+## Disclaimer
 
-- [ ] User Flag
-- [ ] Root/System Flag
-
-## 7. Tools Used
-
-- Nmap
-- Burp Suite
-- Additional tools to be documented
-
-## 8. Screenshots
-
-Screenshots will be added with explanations for every important stage.
-
-## 9. Lessons Learned
-
-*Document the techniques and knowledge gained from this machine.*
-
----
-
-**Educational Purpose:** Authorized Hack The Box laboratory documentation.
+This writeup is intended for educational purposes and documents activity performed in an authorized Hack The Box lab environment.
